@@ -1,9 +1,16 @@
+.elemento-padre{
+    border: 1px solid black;
+    position: relative;
+    height: 200px;
+}
+
 .elemento-principal{
     background-color: yellow;
     padding: 10px;
     position: static;
     left: 10px;
     bottom: 10px;
+    position: fixed;
 }
 
 .elemento-hijo{
